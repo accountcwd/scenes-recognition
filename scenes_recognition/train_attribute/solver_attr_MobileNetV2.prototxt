@@ -1,0 +1,17 @@
+test_iter: 717
+test_interval: 900
+test_initialization: false
+base_lr: 0.0015
+display: 100
+max_iter: 20000
+lr_policy: "step"
+gamma: 0.8
+stepsize: 3000
+power : 0.9
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "model/MobileNetV2_attr_"
+solver_mode: GPU
+net: "train_val_attr_MobileNetV2.prototxt"
+solver_type: NESTEROV

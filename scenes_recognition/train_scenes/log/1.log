@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train_place.py", line 9, in <module>
+    import caffe
+  File "/home/beauty/caffe/python/caffe/__init__.py", line 1, in <module>
+    from .pycaffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, RMSPropSolver, AdaDeltaSolver, AdamSolver, NCCL, Timer
+  File "/home/beauty/caffe/python/caffe/pycaffe.py", line 13, in <module>
+    from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+ImportError: No module named _caffe
